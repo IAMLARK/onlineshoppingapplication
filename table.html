@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>table</title>
+</head>
+<style>
+    table,th,td{
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    caption{
+        color: black;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .header{
+        background-color: aqua;
+        padding-top: 20px;
+        width: 100%;
+        display: flex;
+
+    }
+
+    .links{
+        display: grid;
+    }
+    .links a{
+        background-color: teal;
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 5px;
+    }
+
+    links a:hover{
+        background-color: black;
+    }
+
+</style>
+  <div class="header">
+          <div class="links">
+              <ul style="list-style-type: none">
+            <li><a href="home.html">homepage</a> </li>
+                  <br><br>
+            <li><a href="gallery.html">visit my gallery</a> </li>
+                  <br><br>
+            <li><a href="list.html">list</a> </li>
+                  <br><br>
+            <li><a href="background.html">backround</a> </li>
+                  <br><br>
+        </ul>
+          </div>
+  </div>
+
+<body>
+
+<table>
+    <caption>EMPLOYEE DETAILS</caption>
+    <tr>
+        <th>Empid</th>
+        <th>EmpName</th>
+        <th>EmpDept</th>
+        <th>EmplSalary<th>
+    </tr>
+
+    <tr>
+        <td>101</td>
+        <td>joe</td>
+        <td>Development</td>
+        <td>50000</td>
+    </tr>
+
+     <tr>
+        <td>102</td>
+        <td>Mary</td>
+        <td>Testing</td>
+        <td>30000</td>
+    </tr>
+
+     <tr>
+        <td>103</td>
+        <td>Beck</td>
+        <td>Analyst</td>
+        <td>40000</td>
+    </tr>
+
+     <tr>
+        <td>104</td>
+        <td>candace</td>
+        <td>Development</td>
+        <td>45000</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
